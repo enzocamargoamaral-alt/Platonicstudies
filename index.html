@@ -50,21 +50,24 @@
             margin-top: 0;
         }
 
-        button{
-            padding: 10px 15px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            color: purple;
-            font-weight: bold;
-        }
+        button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s; /* Deixa a mudança de cor mais suave */
+}
 
-        .available{
-            background-color: #8500ff;
-        }
+.available {
+    background-color: #8500ff; /* Roxo */
+    color: white;              /* Texto branco para aparecer no fundo roxo */
+}
 
-        .borrowed{
-            background-color: #d4ff00;
+.borrowed {
+    background-color: #e74c3c; /* Um vermelho/coral amigável para indicar "devolvido/indisponível" */
+    color: white;              /* Texto branco */
+}
         }
 
         footer{
