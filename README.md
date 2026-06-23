@@ -61,11 +61,11 @@
         }
 
         .available{
-            background-color: #27ae60;
+            background-color #8500ff: ;
         }
 
         .borrowed{
-            background-color: #e74c3c;
+            background-color: #d4ff00;
         }
 
         footer{
