@@ -116,7 +116,8 @@
             </div>
 
             <div class="book">
-            <img src="1984capa.jpg">
+            <img src="url" alt="https://lens.usercontent.google.com/image?vsrid=COaBtbP6oraxGhACGAEiJGZkYTY0MzliLTdlNjgtNDBjNy04YzFlLTA1ZmQ1MjE0ZjAyZjJ7IgJjZigRQnMKLmxmZS1kdW1teTowOWJhZTljOC1iMzgxLTQ4YWEtODc2YS1iOGQyZmUwYjczMzESQQo_L2Jucy9jZi9ib3JnL2NmL2Jucy9sZW5zLWZyb250ZW5kLWFwaS9wcm9kLmxlbnMtZnJvbnRlbmQtYXBpLzE4OKvfh66xwJUD&gsessionid=dFQ3jsdGwVuL3RkKARK8q0smDLP5B3WKxySTTHslGkOldTHzbQ_RkQ">
+
                 <h3>1984</h3>
                 <p><strong>Author:</strong> George Orwell</p>
                 <button class="available" onclick="toggleBook(this)">
