@@ -1,3 +1,4 @@
+# Virtual LIbrary
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,24 +51,21 @@
             margin-top: 0;
         }
 
-        button {
-    padding: 10px 15px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.2s; /* Deixa a mudança de cor mais suave */
-}
+        button{
+            padding: 10px 15px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: white;
+            font-weight: bold;
+        }
 
-.available {
-    background-color: #8500ff; /* Roxo */
-    color: white;              /* Texto branco para aparecer no fundo roxo */
-}
+        .available{
+            background-color #8500ff: ;
+        }
 
-.borrowed {
-    background-color: #e74c3c; /* Um vermelho/coral amigável para indicar "devolvido/indisponível" */
-    color: white;              /* Texto branco */
-}
+        .borrowed{
+            background-color: #d4ff00;
         }
 
         footer{
@@ -111,13 +109,84 @@
 
             <div class="book">
                 <h3>Pride and Prejudice</h3>
-                <p><strong>Author:</strong> Jane Austen</p>
+                <p><<style>
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #f4f6f9;
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        background-color: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+
+    main{
+        max-width: 900px;
+        margin: 30px auto;
+        padding: 20px;
+    }
+
+    .search-box{
+        margin-bottom: 20px;
+    }
+
+    input{
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+
+    .book{
+        background: white;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,.1);
+    }
+
+    .book h3{
+        margin-top: 0;
+    }
+
+    button{
+        padding: 10px 15px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+    }
+
+    .available{
+        background-color #8500ff: ;
+    }
+
+    .borrowed{
+        background-color: #d4ff00;
+    }
+
+    footer{
+        text-align: center;
+        padding: 15px;
+        background-color: #2c3e50;
+        color: white;
+        margin-top: 30px;
+    }
+</style>strong>Author:</strong> Jane Austen</p>
                 <button class="available" onclick="toggleBook(this)">
                     Borrow Book
                 </button>
             </div>
 
             <div class="book">
+            <img src="url" alt="https://lens.usercontent.google.com/image?vsrid=COaBtbP6oraxGhACGAEiJGZkYTY0MzliLTdlNjgtNDBjNy04YzFlLTA1ZmQ1MjE0ZjAyZjJ7IgJjZigRQnMKLmxmZS1kdW1teTowOWJhZTljOC1iMzgxLTQ4YWEtODc2YS1iOGQyZmUwYjczMzESQQo_L2Jucy9jZi9ib3JnL2NmL2Jucy9sZW5zLWZyb250ZW5kLWFwaS9wcm9kLmxlbnMtZnJvbnRlbmQtYXBpLzE4OKvfh66xwJUD&gsessionid=dFQ3jsdGwVuL3RkKARK8q0smDLP5B3WKxySTTHslGkOldTHzbQ_RkQ">
+
                 <h3>1984</h3>
                 <p><strong>Author:</strong> George Orwell</p>
                 <button class="available" onclick="toggleBook(this)">
