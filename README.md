@@ -116,6 +116,7 @@
             </div>
 
             <div class="book">
+            <img src="1984capa.jpg">
                 <h3>1984</h3>
                 <p><strong>Author:</strong> George Orwell</p>
                 <button class="available" onclick="toggleBook(this)">
